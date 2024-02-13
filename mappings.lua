@@ -29,6 +29,8 @@ return {
     },
     -- tables with the `name` key will be registered with which-key if it's installed
     -- this is useful for naming menus
+    ["<C-d>"]={"<C-d>zz", desc = "Scroll down"},
+    ["<C-u>"]={"<C-u>zz", desc = "Scroll up"},
     ["<leader>b"] = { name = "Buffers" },
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
